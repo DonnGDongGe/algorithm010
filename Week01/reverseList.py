@@ -25,7 +25,7 @@ class Solution:
 
         while curr:
             next = curr.next
-            curr.next = prev # cur的next节点指向空
+            curr.next = prev  # cur的next节点指向空
             prev = curr
             curr = next
 

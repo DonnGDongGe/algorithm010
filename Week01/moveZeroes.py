@@ -7,6 +7,7 @@ class Solution:
         for index, value in enumerate(nums):
             if nums[index] != 0:
                 nums[index], nums[zero] = nums[zero] + nums[index]
-                zero +=1
+                zero += 1
         return nums
-                
+
+

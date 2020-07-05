@@ -8,7 +8,9 @@ class Solution:
                 res = max(res, height[i] * (j - i))
                 i += 1
             else:
-                res = max(res, height[j])
+                res = max(res, height[j] * (j - i))
                 j -= 1
         return res
-        
+
+
+Solution().maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7])
